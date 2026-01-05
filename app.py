@@ -105,5 +105,4 @@ def process_frame():
         return jsonify({'status': 'Error', 'error': str(e)})
 
 if __name__ == '__main__':
-    # Debug=True allows auto-restart when you change code
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=10000)
