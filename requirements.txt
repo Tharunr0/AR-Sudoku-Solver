@@ -1,6 +1,5 @@
-numpy
-opencv-python
-tensorflow
-scikit-learn
 Flask
-gevent
+gunicorn
+numpy
+opencv-python-headless
+tensorflow-cpu
